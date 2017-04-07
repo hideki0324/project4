@@ -8,11 +8,15 @@
 	<head>
 		<title>See Life web site</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" href="./bootstrap/css/bootstrap-theme.css">
+		<link rel="stylesheet" href="./bootstrap/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
 	</head>
 
 	<body>
@@ -22,28 +26,30 @@
 			<!-- Header -->
 			<header id="header">
 				<div class="container">
+
 					<!-- Logo -->
 					<div class="row">
 						<a href="index.html" class="logo col-md-3 col-xs-6">
 							<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">SEE LIFE</span>
 						</a>
+
 						<!-- Nav -->
 						<nav class="navbar menu_pc col-md-8 col-xs-6">
-							<div class="container-fluid custom">
+							<div class="inner container-fluid custom">
 						    	<div class="navbar-header">
 						    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							     		<ul class="nav navbar-nav">
 								     		<li><a href="index.html">Home</a></li>
+											<li><a href="#">RECOMENDED</a></li>
+											<li><a href="#">POPULARITES</a></li>
 											<li><a href="#">Hotels</a></li>
 											<li><a href="#">Flights</a></li>
 											<li><a href="#">Cars</a></li>
-											<li><a href="#">Cruises</a></li>
-											<li><a href="#">About</a></li>
+											<li><a href="about">About</a></li>
 								            <li role="separator" class="divider"></li>
-								            <li><a href="#">Service</a></li>
+								            <li><a href="service">Service</a></li>
 								            <li role="separator" class="divider"></li>
-								            <li><a href="#">FAQ</a></li>
-										</ul>						
+										</ul>		
 							    	</div><!-- /.navbar-collapse -->
 							    </div>	
 							</div><!-- /.container-fluid -->
@@ -56,6 +62,7 @@
 					</div>
 				</div>
 			</header>
+			<!-- Header finish-->
 
 			<!-- Menu start-->
 			<nav id="menu">
@@ -64,136 +71,52 @@
 					<li><a href="#">Hotels</a></li>
 					<li><a href="#">Flights</a></li>
 					<li><a href="#">Cars</a></li>
-					<li><a href="#">Cruises</a></li>
 					<li><a href="#">About</a></li>
 		            <li><a href="#">Service</a></li>
 		            <li><a href="#">FAQ</a></li>
 				</ul>
 			</nav>
+			<!-- menu finish -->
 
 			<!-- Main start-->
 			<div id="main">
 				<div class="container-fluid custom">
 
 					<!-- main img start -->	
-					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					<div id="carousel-generic" class="carousel slide" data-ride="carousel">
+
 						<!-- Indicators -->
 					  	<ol class="carousel-indicators">
-					    	<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-						    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-						    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					    	<li data-target="#" data-slide-to="0" class="active"></li>
+						    <li data-target="#carousel-generic" data-slide-to="1"></li>
+						    <li data-target="#carousel-generic" data-slide-to="2"></li>
+						    <li data-target="#carousel-generic" data-slide-to="3"></li>
 						</ol>
 
 						<!-- Wrapper for slides -->
-						<div class="carousel-inner" role="listbox">
+						<div class="carousel-inner">
 					    	<div class="item active">
-						    	<img src="./images_test/test_1.jpg" alt="test_images">
+						    	<img src="https://placehold.jp/000000/ffffff/1600x600.png" alt="main_images"/>
 					    	</div>
 						    <div class="item">
-							    <img src="./images_test/test_2.jpg" alt="test_images">
+							    <img src="https://placehold.jp/ff0000/ffffff/1600x600.png" alt="main_images"/>
 						    </div>
 						    <div class="item">
-							    <img src="./images_test/test_3.jpg" alt="test_images">
+							    <img src="https://placehold.jp/33cc33/ffffff/1600x600.png" alt="main_images"/>
 						    </div>
 						</div>	
 
 						<!-- Controls -->
-						<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						<a class="left carousel-control" href="#carousel-generic"  data-slide="prev">
 							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-						    <span class="sr-only">Previous</span>
 						</a>
-						<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						<a class="right carousel-control" href="#carousel-generic" data-slide="next">
 						    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-						    <span class="sr-only">Next</span>
 						</a>
 					</div>
 				</div>
 			</div>
 			<!-- main img finish -->
-			<!-- tours starts -->
-			<div id="tours">
-				<div class="container">
-					<div class="tours"><a name="tours"></a>
-						<div class="box_title">
-							<h1> <a href="＃">Recomend Tours</a>.</h1>
-							<p>We has hand picked these Cheap Vacation Deals to help you save when you book your Vacation today. Book your Cheap Vacations to any of our destinations & Save! </p>
-						</div>
-						<div class="row latest-news clearfix">
-							<div class="col-md-12 .col-xs-6">	
-								<section class="tiles">
-									<article class="style1">
-										<span class="image">
-											<img src="images/pic01.jpg" alt="" />
-										</span>
-										<a href="generic.html">
-											<h2>Orlando, FL.</h2>
-											<div class="content">
-												<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-											</div>
-										</a>
-									</article>
-									<article class="style2">
-										<span class="image">
-											<img src="images/pic02.jpg" alt="" />
-										</span>
-										<a href="generic.html">
-											<h2>Tampa, FL.</h2>
-											<div class="content">
-												<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-											</div>
-										</a>
-									</article>
-									<article class="style3">
-										<span class="image">
-											<img src="images/pic03.jpg" alt="" />
-										</span>
-										<a href="generic.html">
-											<h2>Varadero, CU.</h2>
-											<div class="content">
-												<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-											</div>
-										</a>
-									</article>
-									<article class="style1">
-										<span class="image">
-											<img src="images/pic01.jpg" alt="" />
-										</span>
-										<a href="generic.html">
-											<h2>Holguin, CU.</h2>
-											<div class="content">
-												<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-											</div>
-										</a>
-									</article>
-									<article class="style2">
-										<span class="image">
-											<img src="images/pic02.jpg" alt="" />
-										</span>
-										<a href="generic.html">
-											<h2>Fort Lauderdale, FL.</h2>
-											<div class="content">
-												<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-											</div>
-										</a>
-									</article>
-									<article class="style3">
-										<span class="image">
-											<img src="images/pic03.jpg" alt="" />
-										</span>
-										<a href="generic.html">
-											<h2>Miami, FL.</h2>
-											<div class="content">
-												<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-											</div>
-										</a>
-									</article>
-								</section>
-							</div>								
-						</div>	
-					</div>	
-				</div>
-			</div>
-			<!-- tours finish-->
 
 			<!-- trips start -->
 			<div id="trips">
@@ -459,28 +382,141 @@
 			</div>
 			<!-- countries finish-->
 
+			<!-- hotel starts -->
+			<div id="hotel">
+				<div class="container">
+					<div class="hotel"><a name="hotel"></a>
+						<div class="box_title">
+							<h1>Recomend hotel</h1>
+							<p>We has hand picked these Cheap Vacation Deals to help you save when you book your Vacation today. Book your Cheap Vacations to any of our destinations & Save! </p>
+						</div>
+						<div class="row">
+							
+							<div class="col-md-3 .col-xs-6 box_contents text-center">
+								<div class="wrapper">
+									<a href="#"><img src="https://placehold.jp/888888/ffffff/250x250.png" alt="main_images"/></a>
+									<h5>Bahama Bay Resort</h5>
+									<p>New York , United States</br>Depart: Thu, Febraury 01 @ 2:30 PM</br>Return: Tue, March 06 @ 6:30 AM</br>Operated by Air USA</p>
+									<span>$450can</span>
+									<span><a href="#">detailed information</a></span>
+								</div>
+							</div>
+							<div class="col-md-3 .col-xs-12 box_contents text-center">
+								<div class="wrapper">
+									<a href="#"><img src="https://placehold.jp/888888/ffffff/250x250.png" alt="main_images"/></a>
+									<h5>Bahama Bay Resort</h5>
+									<p>New York , United States</br>Depart: Thu, Febraury 01 @ 2:30 PM</br>Return: Tue, March 06 @ 6:30 AM</br>Operated by Air U6</p>
+									<span>$450can</span>
+									<span><a href="#">detailed information</a></span>
+								</div>
+							</div>
+							<div class="col-md-3 .col-xs-12 box_contents text-center">
+								<div class="wrapper">
+									<a href="#"><img src="https://placehold.jp/888888/ffffff/250x250.png" alt="main_images"/></a>
+									<h5>Bahama Bay Resort</h5>
+									<p>New York , United States</br>Depart: Thu, Febraury 01 @ 2:30 PM</br>Return: Tue, March 06 @ 6:30 AM</br>Operated by Air USA</p>
+									<span>$450can</span>
+									<span><a href="#">detailed information</a></span>
+								</div>
+							</div>
+							<div class="col-md-3 .col-xs-12 box_contents text-center">
+								<div class="wrapper">
+									<a href="#"><img src="https://placehold.jp/888888/ffffff/250x250.png" alt="main_images"/></a>
+									<h5>Bahama Bay Resort</h5>
+									<p>New York , United States</br>Depart: Thu, Febraury 01 @ 2:30 PM</br>Return: Tue, March 06 @ 6:30 AM</br>Operated by Air USA</p>
+									<span>$450can</span>
+									<span><a href="#">detailed information</a></span>
+								</div>
+							</div>				
+						</div>	
+					</div>	
+				</div>
+			</div>
+			<!-- hotel finish-->
+
+			<!-- about start -->
+			<div id="about">
+				<div class="container ">
+					<div class="about"><a name="about"></a>
+						<div class="box_title">
+							<h1> ABOUT</h1>
+						</div>	
+						<div class="row clearfix">
+							<div class="col-md-6 .col-xs-12 text-center">
+								<h2>Experience</h2>
+								<p>Our concept that we care always about. That's why we created this company, We are constantly focused on providing customers a good journey. Every employee wishes to be satisfied with all the customers and to be told that it was really good to use this company.　I will  always make efforts for that thatoperators, airlines, hotels, cruise lines and car rental companies to find the best deals for you, our customer. All for you.　I sincerely thank you.</p>
+								<p>Hideki Murata </br> President</p>
+
+								<p>See Lif is a full service travel agency dedicated to offering you travel products and services online and through its call centre, including vacation packages, flights, hotels, cruises, car rentals, toursand more.
+								Our staff are a team of dedicated individuals with extensive experience in travel and – most importantly – customer service.
+								</p>
+
+							</div>			
+							<div class="img col-md-6 .col-xs-12">
+								<img src="https://placehold.jp/640x480.png" alt="img">
+							</div>
+						</div>	
+					</div>	
+				</div>
+			</div>
+			<!-- about finish-->
+
+			<!-- service start -->
+			<div id="service">
+				<div class="container ">
+					<div class="about"><a name="about"></a>
+						<div class="box_title">
+							<h1>SERVICE</h1>
+						</div>	
+						<div class="row clearfix">	
+							<div class="img col-md-6 .col-xs-12">
+								<img src="https://placehold.jp/640x480.png" alt="img">
+							</div>
+							<div class="col-md-6 .col-xs-12 text-center">
+								<h3>WHY CHOOSE US</h3>
+								<ul>
+									<li><span>5 Star Service</span></li>
+									<li><span>Inclusive Packages</span></li>
+									<li><span>Latest Model Vehicles</span></li>
+									<li><span>Best Price Guarantee</span></li>
+								</ul>
+								<h3>WHO WE ARE</h3>
+								<p>Pellentesque ac turpis egestas, varius justo et, condimentum augue. Praesent aliquam, nisl feugiat vehicula condimentum, justo tellus scelerisque metus. Pellentesque ac turpis egestas, varius justo et, condimentum augue.Pellentesque ac turpis egestas, varius justo et, condimentum augue. Praesent aliquam, nisl feugiat vehicula condimentum.
+								</p>
+							</div>
+						</div>	
+					</div>	
+				</div>
+			</div>
+			<!-- about finish-->
+
 			<!-- Footer -->
 			<footer id="footer">
 				<div class="container">
 					<div class="row clearfix">
-						<div class="copyright .col-md-4">
+						<div class="copyright col-md-4 col-xs-12">
 							<a href="index.html" class="logo">
 								<span class="symbol"><img src="images/logo.svg" alt="" /></span>
 								<span class="title">SEE LIFE</span>
 							</a>
-							<span>&copy;SEE LIFE. 2017 All rights reserved </span>
+							<span class="copy">&copy;SEE LIFE. 2017 All rights reserved </span>
 							<ul class="contact">
-								<li><a href="#" class="icon style2 fa-500px"><span class="label">: 1234 Mobson Blvd. Vancouver, BC, V5X 4X7</span></a></li>
-								<li><a href="#" class="icon style2 fa-phone"><span class="label">: +81 123 456 789</span></a></li>
-								<li><a href="#" class="icon style2 fa-envelope-o"><span class="label">: see_life@mail.com</span></a></li>
+								<li>
+									<span class="glyphicon glyphicon-home" aria-hidden="true"> : 1234 Robson Blvd. Vancouver, BC, V5X 4X7</span>
+								</li>
+								<li>
+									<span class="glyphicon glyphicon-phone-alt" aria-hidden="true"> : 81-123-456-789</span>
+								</li>
+								<li>
+									<span class="glyphicon glyphicon-envelope" aria-hidden="true"> : see_life@mail.com</span>
+								</li>
 							</ul>
 						</div>	
 
 
-
-						<div class="form .col-md-8">
-							<div class="inner form">
-								<h2>Get in touch</h2>
+						<div class="form col-md-8 col-xs-12 clearfix">
+							<div class="inner text-left ">
+								<h3>Get in touch</h3>
 								<form method="post" action="#">
 									<div class="field half first">
 										<input type="text" name="name" id="name" placeholder="Name" />
@@ -495,19 +531,18 @@
 										<li><input type="submit" value="Send" class="special" /></li>
 									</ul>
 								</form>
-							</div>	
-						</div>
-
-						<div class="inner sns">
-							<h2>Follow</h2>
-							<ul class="icons">
-								<li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
-								<li><a href="#" class="icon style2 fa-github"><span class="label">GitHub</span></a></li>
-							</ul>
-						</div>
+							</div>
+							<div class="inner sns">
+								<h3>Follow</h3>
+								<ul class="icons">
+									<li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
+									<li><a href="#" class="icon style2 fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</div>
+						</div>	
 					</div>
 				</div>
 			</footer>
@@ -522,13 +557,9 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 		<script src="assets/js/main.js"></script>
 		<!-- Bootstrap  -->
-		<link rel="stylesheet" href="./bootstrap/css/bootstrap-theme.css">
-		<link rel="stylesheet" href="./bootstrap/css/bootstrap-theme.min.css">
-		<link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
-		<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="./bootstrap/js/bootstrap.js">
-		<link rel="stylesheet" href="./bootstrap/js/bootstrap.min.js">
-		<link rel="stylesheet" href="./bootstrap/js/npm.js">
-	</body>
+		<script src="./bootstrap/js/bootstrap.js"></script>
+		<script src="./bootstrap/js/bootstrap.min.js"></script>
+		<script src="./bootstrap/js/npm.js"></script>
 
+	</body>
 </html>
